@@ -11,6 +11,10 @@ editor_options:
 
 For this class' semester project, I plan to use data from lab, the Social Environments and Adolescence (SEA) Lab. Since last semester, I have been using data to understand how same-race social media exposure is associated with body image outcomes in adolescent Black girls. The same-race social media exposure measure is a one-item measure that asks adolescents the percentage of people they follow that is the same ethnic-racial group as them. While we have found some important findings, the measure fails to capture the content Black adolescent girls are viewing from those of the same ethnic-racial group as them. The SEA Lab has a larger dataset that includes the same variables, but also has open-ended response questions about content participants viewed online that made them happy or causes them stress. I hope to use this dataset to extend my current research projects and additional context to some of my current findings. I believe this dataset would be great for this course because the dataset is much larger and includes different kinds of data that I will have to organize. This will hopefully lead to me having organized, tidy data that I can use for future analyses.
 
+## Assignment Reflection
+
+I struggled most with navigating the absolute and relative paths; however, once I figured that out I found it easier to read files in from the console then doing a more click-and-point method. I really appreciate the folders it creates and can see myself adopting the method to organize my project files. I see the use of Github, and think it is especially great to see past edits on the file. I think I will get confused when it comes to the collaboration part, which is a shame since I know that is what it is most known for.
+
 ## Public Data
 
 Below is public data from the Centers for Disease Control. The Social Vulnerability Index is made up of data indicating which communities are most at risk for public health issues due to factors such as socioeconomic status and neighborhood composition. The data is used to identify which communities need additional assistance during public health emergencies like the COVID-19 pandemic. 
@@ -19,4 +23,3 @@ Below is public data from the Centers for Disease Control. The Social Vulnerabil
 data <- read.csv("data/CDC_Social_Vulnerability_Index__CDCSVI_.csv")
 summary(data)
 ```
-
