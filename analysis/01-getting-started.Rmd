@@ -1,0 +1,22 @@
+---
+title: "01-getting-started"
+author: "Caitlin Mbuakoto"
+date: "2026-01-31"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Project Description
+
+For this class' semester project, I plan to use data from lab, the Social Environments and Adolescence (SEA) Lab. Since last semester, I have been using data to understand how same-race social media exposure is associated with body image outcomes in adolescent Black girls. The same-race social media exposure measure is a one-item measure that asks adolescents the percentage of people they follow that is the same ethnic-racial group as them. While we have found some important findings, the measure fails to capture the content Black adolescent girls are viewing from those of the same ethnic-racial group as them. The SEA Lab has a larger dataset that includes the same variables, but also has open-ended response questions about content participants viewed online that made them happy or causes them stress. I hope to use this dataset to extend my current research projects and additional context to some of my current findings. I believe this dataset would be great for this course because the dataset is much larger and includes different kinds of data that I will have to organize. This will hopefully lead to me having organized, tidy data that I can use for future analyses.
+
+## Public Data
+
+Below is public data from the Centers for Disease Control. The Social Vulnerability Index is made up of data indicating which communities are most at risk for public health issues due to factors such as socioeconomic status and neighborhood composition. The data is used to identify which communities need additional assistance during public health emergencies like the COVID-19 pandemic. 
+
+```{r}
+data <- read.csv("data/CDC_Social_Vulnerability_Index__CDCSVI_.csv")
+summary(data)
+```
+
